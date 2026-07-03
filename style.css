@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.box {
+    width: 30vw;
+    height: 63vh;
+    background-color: hsl(0, 0%, 100%);
+    border: 1.5px solid black;
+    border-radius: 10px;
+    box-shadow: 6px 6px 0 black;
+}
+
+.parent {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box .img img {
+    width: 26vw;
+    height: 25vh;
+    border-radius: 12px;
+    margin: 2vh 2vw;
+    object-fit: cover;
+
+}
+
+.box .img {
+    width: 26vw;
+    border-radius: 12px;
+    height: 25vh;
+}
+
+.box .learning {
+    height: 3.5vh;
+    width: 5vw;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    margin: 5vh 2vw;
+    font-size: 0.6em;
+    margin-bottom: 0px;
+    align-items: center;
+}
+
+.date {
+    font-size: 0.6em;
+    opacity: 0.95;
+    font-weight: 600;
+    margin: 2.3vh 2vw;
+    width: 100%;
+}
+
+.htmlandcss {
+    margin: 2.5vh 2vw;
+    font-weight: 1000;
+}
+
+.para {
+    margin: 2.1vh 2vw;
+    font-size: 0.8em;
+    opacity: 0.6;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 400
+}
+
+.profilesection img {
+    height: 4vh;
+    margin-left: 2vw;
+}
+
+.name {
+    font-weight: 900;
+    margin: 0 1vw;
+}
+
+.profilesection {
+    display: flex;
+    margin-top: 2vh;
+    height: auto;
+    width: 100%;
+
+    align-items: center;
+}
+
+.box .learning:hover {
+    background-color: rgb(188, 188, 91);
+}
+
+@media(max-width: 700px) {
+    .box {
+        width: 40vw;
+    }
+
+    .box .img {
+        width: 36vw;
+    }
+
+    .box .img img {
+        width: 36vw;
+    }
+
+    .box .learning {
+        width: 6vw;
+    }
+}
+
+@media(max-width: 600px) {
+    .box {
+        width: 45vw;
+    }
+
+    .box .img {
+        width: 31vw;
+    }
+
+    .box .img img {
+        width: 41vw;
+    }
+
+    .box .learning {
+        width: 8vw;
+    }
+
+}
+
+@media(max-width: 500px) {
+    .box {
+        width: 50vw;
+    }
+
+    .box .img {
+        width: 46vw;
+    }
+
+    .box .img img {
+        width: 46vw;
+    }
+
+    .box .learning {
+        width: 10vw;
+    }
+}
+@media(max-width: 350px){
+    .box{
+        width: 60vw;
+    }
+    .box .img{
+        width: 56vw;
+    }
+    .box .img img{
+        width: 56vw;
+    }
+    .box .learning{
+        width: 15vw;
+    }
+}
+
+@media(max-width: 400px) {
+    .box {
+        width: 55vw;
+    }
+
+    .box .img {
+        width: 51vw;
+    }
+
+    .box .img img {
+        width: 51vw;
+    }
+
+    .box .learning {
+        width: 13vw;
+    }
+}
